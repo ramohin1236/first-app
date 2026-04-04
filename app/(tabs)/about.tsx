@@ -1,10 +1,10 @@
 import { Link } from "expo-router";
 import { StyleSheet, Text, View } from "react-native";
 
-export default function Index() {
+export default function AboutScreen() {
   return (
-    <View style={styles.container}>
-      <Text style={styles.text}>Hello oppo A96</Text>
+    <View style={styles.container}  >
+      <Text style={styles.text}>Hello oppo A96 about</Text>
     </View>
   );
 }
@@ -21,3 +21,4 @@ const styles = StyleSheet.create({
     fontSize: 24,
   }
 });
+
